@@ -55,7 +55,7 @@
                               <p><?=$_SESSION["nama_instansi"]." merupakan salah satu rumah sakit umum di wilayah ".$_SESSION["kabupaten"]." yang berkedudukan di ".$_SESSION["alamat_instansi"].". ".$_SESSION["nama_instansi"]." merupakan perkembangan dari balai pengobatan, klinik dan berada dibawah Yasayan Syafakillah. ".$_SESSION["nama_instansi"]." mendapat izin operasional dengan Kode PPK ".$_SESSION["kode_ppkkemenkes"]." sejak bulan November 2009 dan diresmikan tanggal 21 februari 2010. ".$_SESSION["nama_instansi"]." dalam memberikan pelayanannya mengambil filosofi  dasar bahwa pelayanan kesehatan yang baik itu tidak harus mahal dan kalau bisa, harus tidak mahal. Filosofi dasar yang kedua adalah bersama yang tidak mampu kita harus maju. Hal ini memiliki arti bahwa ".$_SESSION["nama_instansi"]." harus mampu memajukan dirinya dan pihak-pihak yang berhubungan dengan dirinya menuju arah yang lebih baik."?></p>
                           </div>
                           <figure class="profile wow fadeInUp" data-wow-delay="1s">
-                               <img src="images/author-image.jpg" class="img-responsive" alt=""/>
+                               <img src="https://raw.githubusercontent.com/novantrio/epasien.rshajikamino.com/refs/heads/master/public_html/images/author-image.jpg" class="img-responsive" alt=""/>
                                <figcaption>
                                     <h3>dr. Mayahati Nazaya</h3>
                                     <p>Direktur Utama</p>
@@ -95,7 +95,7 @@
                                                     <p><i class='fa fa-envelope-o'></i> No.SIP. $rsquerydokter[3] </p>
                                                </div>
                                                <ul class='social-icon'>
-                                                    <li><a href='#' class='fa fa-linkedin-square'></a></li>
+                                                    <li><a href='#' class='fa fa-linkedin-square' aria-label='Visit our LinkedIn profile' title='Visit our LinkedIn profile'></a></li>
                                                     <li><a href='#' class='fa fa-envelope-o'></a></li>
                                                </ul>
                                           </div>
@@ -149,7 +149,7 @@
       <div class="container">
            <div class="row">
                 <div class="col-md-6 col-sm-6">
-                     <img src="images/appointment-image.jpg" class="img-responsive" alt="">
+                     <img src="https://raw.githubusercontent.com/novantrio/epasien.rshajikamino.com/05646d76bba63990e4d458753b3bfc4df554a901/public_html/images/appointment-image.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="col-md-6 col-sm-6">
                      <form id="appointment-form" role="form" onsubmit="return validasiIsi();" method="post" action="index.php?act=PendaftaranPeriksa" enctype=multipart/form-data>
@@ -240,7 +240,7 @@
  </section>
 
  <section id="google-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.232783490148!2d104.54573751429703!3d-4.729582250405286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3890b4ffffffff%3A0x166f7c1e75ff6a10!2sRumah%20Sakit%20Haji%20Kamino!5e0!3m2!1sid!2sid!4v1608302484370!5m2!1sid!2sid" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen="true"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.232783490148!2d104.54573751429703!3d-4.729582250405286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3890b4ffffffff%3A0x166f7c1e75ff6a10!2sRumah%20Sakit%20Haji%20Kamino!5e0!3m2!1sid!2sid!4v1608302484370!5m2!1sid!2sid" width="100%" height="350" frameborder="0" style="border:0" allowfullscreen="true" title="Peta lokasi Rumah Sakit Haji Kamino"></iframe>
  </section>     
 
  

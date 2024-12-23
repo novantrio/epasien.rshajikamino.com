@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
      <title>EPasien <?=htmlspecialchars($_SESSION["nama_instansi"]);?></title>
-     <meta name="robots" content="noindex,nofollow">
+<!--     <meta name="robots" content="index,follow"> -->
      <meta charset="UTF-8"/>
      <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
      <meta name="description" content="rshk rs haji kamino, daftar online"/>
@@ -35,8 +35,9 @@
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
                <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
+                    <button class="navbar-toggle" data-toggle="collapse" aria-label="Toggle navigation" data-target=".navbar-collapse">
+                         <span class="sr-only">Toggle navigation</span> <!-- Text for screen readers -->
+			 <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                     </button>
