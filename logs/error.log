@@ -1,1 +1,0 @@
-[Mon Dec 23 17:30:43.805956 2024] [php7:notice] [pid 6640] [client 110.137.38.174:7653] PHP Notice:  Undefined variable: delay in /var/www/html/epasien.rshajikamino.com/public_html/pages/home.php on line 113

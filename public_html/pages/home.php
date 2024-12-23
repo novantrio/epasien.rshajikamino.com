@@ -110,11 +110,10 @@
                     echo $_SESSION["dokter"];
                 ?>
                 <div class="col-md-4 col-sm-6">
-                     <div class="wow fadeInUp" data-wow-delay="<?=$delay;?>s">
+                <div class="wow fadeInUp" data-wow-delay="0.4s">
                          <br/><br/><br/><br/><center><a href='index.php?act=DokterKami' class="btn btn-warning" >Tampilkan Semua Dokter</a></center>
                      </div>
                 </div>
-
            </div>
       </div>
  </section>
